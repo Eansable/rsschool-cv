@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40));
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(39, 39, 39);
+  height: 100vh;
+}
+
+.foto {
+  background-image: url(/foto.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  background-position: -175px -175px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
