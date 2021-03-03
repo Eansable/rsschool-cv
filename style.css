@@ -1,44 +1,123 @@
-body {
-  background: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40));
-  color: #ffffff;
+* {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 800px;
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(39, 39, 39);
-  height: 100vh;
-  padding-top: 30px;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  background-color: #424753;
+  border-left: 10px solid #f2c100;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* first-column */
+
+.first-column {
+  width: 35%;
+  color: #ffffff;
 }
 
 .foto {
-  background-image: url(/foto.jpg);
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-  background-position: -175px -175px;
-  border-radius: 50%;
-  border: 5px solid white;
+  background-image: url(assets/foto.jpg);
+  background-position: -170px -75px;
+  height: 400px;
+}
+
+.contact {
+  background-color: #343945;
 }
 
 .phone {
-  color: inherit;
+  display: inline-block;
   text-decoration: none;
-  transition: all 0.5s;
+  color: #ffffff;
+  margin-left: 35px;
+  margin-bottom: 15px;
 }
 
-.phone:hover,
-.mail:hover {
-  color: #9c9c9c;
+.phone__title {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.phone__text {
+  font-size: 15px;
 }
 
 .mail {
-  color: inherit;
+  display: inline-block;
   text-decoration: none;
-  transition: all 0.5s;
+  color: #ffffff;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+.mail__title {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.mail__text {
+  font-size: 15px;
+}
+
+.linkedin {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+.linkedin__title {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.linkedin__text {
+  font-size: 15px;
+}
+
+.education {
+  background-color: #2c323d;
+}
+
+.university {
+  margin-left: 35px;
+  margin-bottom: 15px;
+  font: 14px;
+  font-weight: 200;
+  line-height: 130%;
+}
+
+.college {
+  margin-left: 35px;
+  margin-bottom: 15px;
+  font: 14px;
+  font-weight: 200;
+  line-height: 130%;
+  padding-bottom: 40px;
+}
+
+/* second-column */
+
+.secong-column {
+  width: 65%;
 }
