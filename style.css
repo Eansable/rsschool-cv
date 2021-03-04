@@ -41,6 +41,10 @@ body {
   height: 400px;
 }
 
+.my-foto {
+  width: 100%;
+}
+
 .contact {
   background-color: #343945;
 }
