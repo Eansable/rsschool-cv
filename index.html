@@ -10,27 +10,36 @@
 </head>
 <body>
   <div class="container">
-    <section class="first-column">
-      <div class="foto">
+    <article class="first-column">
+      <figure class="foto">
+        <img src="assets/foto.jpg" alt="Foto Andrey Tarasevich" width="100%">
+      </figure>
+      <div class="contact">
+        <p class="title contact__title">Contact</p>
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a href="" class="phone">
+              <p class="phone__title">Phone</p>
+              <p class="phone__text">+375(29)905-41-86</p>
+          </a>
+        </li>
+          <li class="contact__item">
+            <a href="" class="mail">
+             <p class="mail__title">Email</p>
+             <p class="mail__text">eansable@yandex.by</p>
+            </a>
+          </li>
+          <li class="contact__item">
+            <a href="https://www.linkedin.com/in/andrey-tarasevich-549a2a205/" class="linkedin">
+              <p class="linkedin__title">LinkedIn</p>
+              <p class="linkedin__text">Andrey Tarasevich</p>
+            </a>
+          </li>
+        </ul>
 
       </div>
-      <div class="contact">
-        <h3 class="title contact__title">Contact</h3>
-        <a href="" class="phone">
-          <h4 class="phone__title">Phone</h4>
-          <p class="phone__text">+375(29)905-41-86</p>
-        </a>
-        <a href="" class="mail">
-          <h4 class="mail__title">Email</h4>
-          <p class="mail__text">eansable@yandex.by</p>
-        </a>
-        <a href="https://www.linkedin.com/in/andrey-tarasevich-549a2a205/" class="linkedin">
-          <h4 class="linkedin__title">LinkedIn</h4>
-          <p class="linkedin__text">Andrey Tarasevich</p>
-        </a>
-      </div>
       <div class="education">
-        <h3 class="title education__title">Education</h3>
+        <p class="title education__title">Education</p>
         <div class="university">
           <p class="education__text">
             2014 - 2018 <br>
@@ -48,10 +57,14 @@
           </p>
         </div>
       </div>
-    </section>
-    <section class="second-column">
-      <h1 class="name">Andrey Tarasevich</h1>
-    </section>
+    </article>
+
+    <main class="second-column">
+      <header class="header">
+        <h1 class="name">Andrey<br> Tarasevich</h1>
+        <h2 class="header-subtitle">Frontend developer</h2>
+      </header>
+    </main>
 </div>
 </body>
 </html>
