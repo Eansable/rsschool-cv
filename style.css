@@ -7,11 +7,16 @@
 
 body {
   font-family: Poppins, sans-serif;
+  background-color: lightgrey;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 8px 10px 60px 20px gray;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 800px;
   display: flex;
 }
 
@@ -46,6 +51,16 @@ body {
 
 .contact {
   background-color: #343945;
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__link:hover {
+  transition: 0.8s ease all;
+  color: #f2c100;
+  text-decoration: none;
 }
 
 .phone {
@@ -112,7 +127,7 @@ body {
 
 .college {
   margin-left: 35px;
-  margin-bottom: 15px;
+
   font: 14px;
   font-weight: 200;
   line-height: 130%;
@@ -125,6 +140,7 @@ body {
   width: 65%;
   color: #363636;
   font-size: 18px;
+  background-color: #fff;
 }
 
 .header {
@@ -196,4 +212,26 @@ body {
 
 .english__text {
   padding-left: 30px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ebebeb;
+  color: #363636;
+  font-size: 18px;
+}
+
+.youtube {
+}
+
+.course {
+  width: 100px;
+}
+
+.github__image {
+  width: 75px;
 }
