@@ -23,9 +23,10 @@ body {
   margin-top: 30px;
   margin-bottom: 15px;
   padding-left: 25px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
+  color: #ffffff;
 }
 
 /* first-column */
@@ -36,9 +37,7 @@ body {
 }
 
 .foto {
-  background-image: url(assets/foto.jpg);
-  background-position: -170px -75px;
-  height: 400px;
+  height: 420px;
 }
 
 .my-foto {
@@ -122,13 +121,15 @@ body {
 
 /* second-column */
 
-.secong-column {
+.second-column {
   width: 65%;
+  color: #363636;
+  font-size: 18px;
 }
 
 .header {
-  padding-top: 140px;
-  padding-left: 100px;
+  padding-top: 90px;
+  padding-left: 30px;
 }
 
 .name {
@@ -139,4 +140,60 @@ body {
 .header-subtitle {
   text-transform: uppercase;
   font-weight: 300;
+  color: #363636;
+}
+
+.profile__title {
+  background-color: #ebebeb;
+  color: #363636;
+}
+
+.profile__text {
+  padding-left: 30px;
+}
+
+.example__title {
+  background-color: #ebebeb;
+  color: #363636;
+}
+
+.example__text {
+  padding-left: 30px;
+}
+
+.example__list {
+  padding-left: 60px;
+}
+
+.example__link {
+  color: #363636;
+  text-decoration: none;
+}
+
+.example__link:hover {
+  transition: 0.8s ease all;
+  color: #f2c100;
+  text-decoration: none;
+}
+
+.skills__title {
+  background-color: #ebebeb;
+  color: #363636;
+}
+
+.skills__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  padding-left: 30px;
+}
+
+.english__title {
+  background-color: #ebebeb;
+  color: #363636;
+}
+
+.english__text {
+  padding-left: 30px;
 }
